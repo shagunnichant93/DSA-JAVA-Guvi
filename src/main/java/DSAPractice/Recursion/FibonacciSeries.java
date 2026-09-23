@@ -21,5 +21,6 @@ public class FibonacciSeries {
         System.out.println(firstTerm);
         System.out.println(secondTerm);
         printFib(firstTerm,secondTerm,n-2);
+        sc.close();
     }
 }
